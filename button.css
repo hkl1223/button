@@ -1,0 +1,38 @@
+.layout{
+    width: 600px;
+    margin: 0 auto;
+}
+.h:hover{
+    box-shadow: 
+    0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.h{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding:8px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s;
+   }
+.h.steal{
+    background-color: #009688;
+    color:#fff;
+}
+.h.yellow{
+    background-color: #ffeb3b;
+    
+}
+.h.orange{
+    background-color: #ff9800
+}
+.h.red{
+    background-color: red;
+    color: #fff;
+}
+.h.green{
+    background-color: #4caf50;
+    color: #fff;
+}
